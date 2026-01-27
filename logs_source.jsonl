@@ -1,0 +1,31 @@
+{"ts":"2026-01-25T10:00:00Z","host":"web-01","level":"INFO","cpu":35,"mem":52,"disk":60,"temp_f":85,"code":null,"msg":"telemetry ok"}
+{"ts":"2026-01-25T10:00:02Z","host":"web-03","level":"WARN","cpu":86,"mem":70,"disk":60,"temp_f":92,"code":"HIGH_CPU","msg":"cpu elevated"}
+{"ts":"2026-01-25T10:00:04Z","host":"db-01","level":"CRITICAL","cpu":40,"mem":96,"disk":75,"temp_f":90,"code":"MEM_PRESSURE","msg":"memory usage spike"}
+{"ts":"2026-01-25T10:00:06Z","host":"web-02","level":"CRITICAL","cpu":50,"mem":65,"disk":91,"temp_f":105,"code":"OVERHEAT","msg":"temp spike"}
+{"ts":"2026-01-25T10:00:08Z","host":"web-01","level":"INFO","cpu":42,"mem":55,"disk":62,"temp_f":88,"code":null,"msg":"telemetry ok"}
+{"ts":"2026-01-25T10:00:10Z","host":"cache-01","level":"WARN","cpu":75,"mem":68,"disk":88,"temp_f":95,"code":"HIGH_CPU","msg":"cpu elevated"}
+{"ts":"2026-01-25T10:00:12Z","host":"web-03","level":"CRITICAL","cpu":92,"mem":78,"disk":65,"temp_f":98,"code":"HIGH_CPU","msg":"cpu critical"}
+{"ts":"2026-01-25T10:00:14Z","host":"db-01","level":"INFO","cpu":38,"mem":85,"disk":72,"temp_f":87,"code":null,"msg":"memory recovering"}
+{"ts":"2026-01-25T10:00:16Z","host":"web-02","level":"WARN","cpu":45,"mem":60,"disk":93,"temp_f":102,"code":"DISK_FULL","msg":"disk usage high"}
+{"ts":"2026-01-25T10:00:18Z","host":"cache-01","level":"INFO","cpu":55,"mem":58,"disk":70,"temp_f":89,"code":null,"msg":"telemetry ok"}
+{"ts":"2026-01-25T10:00:20Z","host":"web-01","level":"CRITICAL","cpu":88,"mem":94,"disk":68,"temp_f":97,"code":"MEM_PRESSURE","msg":"memory critical"}
+{"ts":"2026-01-25T10:00:22Z","host":"db-02","level":"INFO","cpu":32,"mem":48,"disk":55,"temp_f":82,"code":null,"msg":"telemetry ok"}
+{"ts":"2026-01-25T10:00:24Z","host":"web-03","level":"WARN","cpu":82,"mem":72,"disk":78,"temp_f":96,"code":"HIGH_CPU","msg":"cpu elevated"}
+{"ts":"2026-01-25T10:00:26Z","host":"cache-01","level":"CRITICAL","cpu":50,"mem":92,"disk":95,"temp_f":108,"code":"OVERHEAT","msg":"temp critical"}
+{"ts":"2026-01-25T10:00:28Z","host":"web-02","level":"INFO","cpu":40,"mem":56,"disk":89,"temp_f":91,"code":null,"msg":"telemetry ok"}
+{"ts":"2026-01-25T10:00:30Z","host":"db-01","level":"WARN","cpu":78,"mem":88,"disk":82,"temp_f":94,"code":"MEM_PRESSURE","msg":"memory elevated"}
+{"ts":"2026-01-25T10:00:32Z","host":"web-01","level":"CRITICAL","cpu":95,"mem":70,"disk":60,"temp_f":99,"code":"HIGH_CPU","msg":"cpu critical"}
+{"ts":"2026-01-25T10:00:34Z","host":"cache-02","level":"INFO","cpu":28,"mem":45,"disk":58,"temp_f":80,"code":null,"msg":"telemetry ok"}
+{"ts":"2026-01-25T10:00:36Z","host":"web-03","level":"WARN","cpu":71,"mem":65,"disk":87,"temp_f":93,"code":"DISK_FULL","msg":"disk usage high"}
+{"ts":"2026-01-25T10:00:38Z","host":"db-02","level":"CRITICAL","cpu":45,"mem":97,"disk":73,"temp_f":92,"code":"MEM_PRESSURE","msg":"memory critical"}
+{"ts":"2026-01-25T10:00:40Z","host":"web-02","level":"INFO","cpu":38,"mem":52,"disk":64,"temp_f":86,"code":null,"msg":"telemetry ok"}
+{"ts":"2026-01-25T10:00:42Z","host":"cache-01","level":"WARN","cpu":84,"mem":69,"disk":79,"temp_f":97,"code":"HIGH_CPU","msg":"cpu elevated"}
+{"ts":"2026-01-25T10:00:44Z","host":"web-01","level":"CRITICAL","cpu":50,"mem":93,"disk":92,"temp_f":104,"code":"OVERHEAT","msg":"temp critical"}
+{"ts":"2026-01-25T10:00:46Z","host":"db-01","level":"INFO","cpu":35,"mem":50,"disk":61,"temp_f":84,"code":null,"msg":"telemetry ok"}
+{"ts":"2026-01-25T10:00:48Z","host":"web-03","level":"WARN","cpu":79,"mem":74,"disk":85,"temp_f":95,"code":"DISK_FULL","msg":"disk usage high"}
+{"ts":"2026-01-25T10:00:50Z","host":"cache-02","level":"CRITICAL","cpu":90,"mem":76,"disk":66,"temp_f":100,"code":"HIGH_CPU","msg":"cpu critical"}
+{"ts":"2026-01-25T10:00:52Z","host":"web-02","level":"INFO","cpu":33,"mem":48,"disk":57,"temp_f":81,"code":null,"msg":"telemetry ok"}
+{"ts":"2026-01-25T10:00:54Z","host":"db-02","level":"WARN","cpu":73,"mem":86,"disk":80,"temp_f":93,"code":"MEM_PRESSURE","msg":"memory elevated"}
+{"ts":"2026-01-25T10:00:56Z","host":"web-01","level":"CRITICAL","cpu":48,"mem":95,"disk":94,"temp_f":107,"code":"OVERHEAT","msg":"temp critical"}
+{"ts":"2026-01-25T10:00:58Z","host":"cache-01","level":"INFO","cpu":30,"mem":44,"disk":59,"temp_f":79,"code":null,"msg":"telemetry ok"}
+{"ts":"2026-01-25T10:01:00Z","host":"web-03","level":"WARN","cpu":81,"mem":67,"disk":88,"temp_f":96,"code":"HIGH_CPU","msg":"cpu elevated"}

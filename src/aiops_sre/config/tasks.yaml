@@ -1,0 +1,44 @@
+log_triage_task:
+  description: >
+    Use the tail_log tool with {log_path} to read the last 20 lines.
+
+    Analyze the most recent telemetry/log entries and detect anomalies using these thresholds:
+    CPU > 80%, Memory > 90%, Temp(F) > 100, Disk > 90%.
+
+    For each anomaly:
+    - Identify the affected host
+    - Name the triggering metric(s) and value(s)
+    - Assign a code (e.g., HIGH_CPU, MEM_PRESSURE, OVERHEAT, DISK_FULL)
+    - Classify severity (WARN vs CRITICAL)
+    - Recommend a remediation playbook link
+
+    If an incident code is present, look it up in the playbooks knowledge (e.g., knowledge/playbooks.md)
+    and include the link.
+
+    If there are no anomalies, say "All clear" and summarize basic recent telemetry.
+  expected_output: >
+    A markdown incident report with:
+    - Summary
+    - Incidents table (host, metric, value, severity, code, playbook link)
+    - Recommended next steps
+  agent: sre_agent
+  output_file: incident_report.md
+
+fleet_summary_task:
+  description: >
+    Using the incident report produced in the previous step, create a fleet health summary.
+
+    Include:
+    - Number of affected hosts
+    - Whether the issue is isolated vs systemic
+    - Which tiers are impacted (e.g., web/db if hostnames indicate tiers)
+    - Overall fleet status: GREEN/YELLOW/RED
+
+    Provide the top 3 recommended actions based on the incidents observed.
+  expected_output: >
+    A markdown fleet health summary suitable for an on-call dashboard, including:
+    - Overall status (GREEN/YELLOW/RED)
+    - Key risks
+    - Top 3 recommended actions
+  agent: fleet_health_analyst
+  output_file: fleet_summary.md

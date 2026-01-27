@@ -1,0 +1,4 @@
+{"ts":"2026-01-24T00:00:00Z","host":"web-01","level":"INFO","cpu":35,"mem":52,"disk":60,"temp_f":85,"code":null,"msg":"telemetry ok"}
+{"ts":"2026-01-24T00:00:02Z","host":"web-03","level":"WARN","cpu":86,"mem":70,"disk":60,"temp_f":92,"code":"HIGH_CPU","msg":"cpu elevated"}
+{"ts":"2026-01-24T00:00:04Z","host":"db-01","level":"CRITICAL","cpu":40,"mem":96,"disk":75,"temp_f":90,"code":"MEM_PRESSURE","msg":"memory usage spike"}
+{"ts":"2026-01-24T00:00:06Z","host":"web-02","level":"CRITICAL","cpu":50,"mem":65,"disk":91,"temp_f":105,"code":"OVERHEAT","msg":"temp spike"}
