@@ -5,7 +5,7 @@ This repository implements an **AIOps/SRE multi-agent system** using the **crewA
 
 ## Installation
 
-Ensure you have Python >=3.10 <3.14 installed on your system. This project uses [UV](https://docs.astral.sh/uv/) for dependency management and package handling, offering a seamless setup and execution experience.
+Ensure you have Python >=3.10 <3.14 installed on your system. This project uses [UV](https://docs.astral.sh/uv/) for dependency management and package handling.
 
 First, if you haven't already, install uv:
 
